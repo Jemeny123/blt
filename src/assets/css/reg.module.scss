@@ -1,0 +1,73 @@
+@function vw($px) {
+  @return ($px / 750) * 200vw;
+}
+.body {
+  background-color: #bbb;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+// box
+.box{
+  overflow-y: auto;
+
+  /* main */
+  .main{
+    width: 100%;
+    ::v-deep .van-nav-bar__text {
+    color: #000;
+    }
+    .header{
+      width: vw(345);
+      height: vw(48);
+      h2{
+        text-align: center;
+        font-weight: 100;
+        height: vw(24);
+        font-size: vw(18);
+        padding: vw(12) 0;
+        span{
+          position: relative;
+          float: left;
+          padding-left: vw(12);
+          margin: 0;
+          top: vw(-0);
+          font-size: 22px;
+          // padding: 0;
+        }
+      }
+    }
+    .con{
+      padding: vw(25) 0 0 0 ;
+      .con_box{
+        // border: #ff8084 1px solid;
+        width: vw(287.5);
+        height: vw(24);
+        margin: 0 auto vw(14) auto;
+        padding: vw(10);
+        background: #f2f2f2;
+        border-radius:vw(20);
+        span{
+          color: rgb(195, 195, 195);
+          margin: 0 vw(5) 0 vw(20);
+        }
+        input{
+          font-size: vw(15);
+          background: #f2f2f2;
+        }
+      }
+      button{
+        width: vw(133.5);
+        height: vw(35);
+        margin-top: vw(35);
+        margin-left: vw(120);
+        border-radius:vw(20);
+        background: #ff8084;
+        color:#fff;
+
+      }
+    }
+    
+  }
+}

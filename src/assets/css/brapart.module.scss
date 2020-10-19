@@ -1,0 +1,100 @@
+@function vw($px) {
+  @return ($px / 750) * 100vw;
+}
+.unitStore {
+  padding: vw(30);
+  background-color: #fff;
+  margin-bottom: vw(20);
+  .unitStore_title {
+    overflow: hidden;
+    padding-right: vw(10);
+    position: relative;
+    .store_logo {
+      width: vw(100);
+      height: vw(100);
+      border-radius: 50%;
+      overflow: hidden;
+      float: left;
+      background-image: url(../../img/backlogo.png) no-repeat 50%;
+      background-size: 100%;
+      display: flex;
+      align-items: center;
+      .logo_img {
+        width: 100%;
+        min-height: 100%;
+      }
+    }
+    .store_mes {
+      float: left;
+      margin-left: vw(30);
+      max-width: vw(440);
+      min-width: vw(300);
+      .store_name {
+        font-size: vw(34);
+        color: #5a5c5d;
+        line-height: vw(56);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+      .store_traffic {
+        columns: #9b9b9b;
+        font-size: vw(28);
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+    .store_link {
+      position: absolute;
+      right: 0;
+      top: vw(10);
+      color: #ee3943;
+      font-size: vw(26);
+      width: vw(90);
+      height: vw(44);
+      line-height: vw(44);
+      text-align: center;
+      border: vw(1) solid #ee3943;
+      border-radius: vw(4);
+    }
+  }
+  .unitList {
+    // display: flex;
+    // flex-direction: row;
+    // justify-content: space-around;
+    overflow: hidden;
+    margin: vw(20) 0;
+    .unitList_li {
+      // margin-left: 0;
+      margin-left: 2.3%;
+      float: left;
+      width: 31%;
+      overflow: hidden;
+      .unitList_img {
+        overflow: hidden;
+        width: 100%;
+        height: vw(160);
+        .unitList_imgdeta {
+          width: 100%;
+          min-height: 100%;
+        }
+      }
+      .unitList_type {
+        font-size: vw(15);
+        width: 100%;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+      .unitList_price {
+        font-size: vw(28);
+        font-weight: 100;
+        color: #9b9b9b;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+      }
+    }
+  }
+}

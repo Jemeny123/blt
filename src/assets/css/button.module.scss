@@ -1,0 +1,20 @@
+@function vw($px) {
+  @return ($px / 750) * 100vw;
+}
+.box1 {
+  width: vw(100);
+  height: vw(100);
+  background-color: red;
+  .p1 {
+    font-size: 16px;
+    color: #58bc58;
+  }
+}
+.img {
+  z-index: 100;
+  width: 100%;
+  //   height: vw(200);
+  background-color: #fff;
+  //   background-color: #58bc58;
+  margin-bottom: vw(20);
+}

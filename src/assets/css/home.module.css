@@ -1,0 +1,318 @@
+.body {
+  background-color: #bbb;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.clearboth {
+  clear: both;
+}
+
+.home {
+  height: 100%;
+  overflow-y: auto;
+  width: 100vw;
+  font-size: 0;
+}
+
+.home .header {
+  width: 100%;
+  position: relative;
+}
+
+.home .header .img1 {
+  width: 100%;
+  height: 100%;
+  font-size: 0;
+  object-fit: cover;
+}
+
+.home .header .search {
+  position: absolute;
+  width: 100%;
+  top: 48vw;
+  text-align: center;
+}
+
+.home .header .search .input1 {
+  background-color: #fff;
+  font-size: 3.73333vw;
+  color: #999;
+  width: 82%;
+  margin-left: 6.4vw;
+  height: 10.93333vw;
+  line-height: 10.93333vw;
+  text-align: center;
+  font-size: 2.13333vw;
+}
+
+.home .header .search .input1 .searchimg {
+  width: 3.6vw;
+  height: 3.6vw;
+  margin-right: 1.33333vw;
+  margin-top: -0.66667vw;
+}
+
+.home .header .search .input1 .text1 {
+  font-size: 3.73333vw;
+}
+
+.nav {
+  width: 100%;
+  background-color: #fff;
+  margin-bottom: 2.66667vw;
+}
+
+.nav .ul {
+  width: 100%;
+  padding: 5.33333vw 0 4vw 0;
+  overflow: hidden;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.nav .ul .li {
+  font-size: 2.13333vw;
+  width: 25%;
+  float: left;
+  height: 100%;
+  text-align: center;
+}
+
+.nav .ul .li .lide1 {
+  display: inline-block;
+  height: 100%;
+  position: relative;
+}
+
+.nav .ul .li .lide1 .img2 {
+  width: 100%;
+  width: 12vw;
+  height: 12vw;
+  font-size: 0;
+}
+
+.study {
+  width: 100%;
+  background: #fff;
+  margin-top: 4vw;
+  padding-top: 4vw;
+  background-color: #fff;
+}
+
+.study .ul2 {
+  padding: 0 2vw;
+}
+
+.study .ul2 .li2 {
+  width: 47.5%;
+  float: left;
+  border-bottom: 0.13333vw solid #f0f0f0;
+  margin-bottom: 2.13333vw;
+}
+
+.study .ul2 .li2 .wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.study .ul2 .li2 .wrapper .imgli {
+  width: 100%;
+  margin-bottom: 2.13333vw;
+  font-size: 0;
+}
+
+.study .ul2 .li2pdleft15 {
+  width: 47.5%;
+  padding-left: 4vw;
+  float: left;
+  border-bottom: 0.13333vw solid #f0f0f0;
+  margin-bottom: 2.13333vw;
+}
+
+.study .ul2 .li2pdleft15 .wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.study .ul2 .li2pdleft15 .wrapper .imgli {
+  width: 100%;
+  margin-bottom: 2.13333vw;
+}
+
+.house {
+  background-color: #fff;
+}
+
+.house .title1 {
+  height: 15.73333vw;
+  line-height: 15.73333vw;
+  padding: 0 2vw;
+}
+
+.house .title1 .guess {
+  font-size: 4.53333vw;
+  color: #3a3b3c;
+  font-weight: 700;
+}
+
+.house .goodlist .goodsitem {
+  font-size: 1.86667vw;
+}
+
+.house .goodlist .goodsitem .housecard {
+  margin: 0 4vw;
+  box-sizing: border-box;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .mainphoto {
+  position: relative;
+  margin: 3.33333vw 4vw 3.33333vw 0;
+  width: 28vw;
+  height: 28vw;
+  border-radius: 0.8vw;
+  overflow: hidden;
+  background-image: url("https://js.baletoo.cn/static/m/static/img/no_img.56c9aff.png");
+  background-size: cover;
+  background-position: 50%;
+  background-repeat: no-repeat;
+  flex-shrink: 0;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .mainphoto .mainimage {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  background-size: cover;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .mainphoto .photolive {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 4.53333vw;
+  line-height: 4.53333vw;
+  font-size: 2.66667vw;
+  text-align: center;
+  color: #fff;
+  background-color: rgba(28, 28, 28, 0.4);
+  border-bottom-left-radius: 1.06667vw;
+  border-bottom-right-radius: 1.06667vw;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .goodtitle {
+  font-size: 4.26667vw;
+  color: #1c1c1c;
+  font-weight: 700;
+  margin-top: 3.06667vw;
+  line-height: 4.8vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .roominfo {
+  color: #666;
+  font-size: 3.2vw;
+  line-height: 3.46667vw;
+  margin-top: 2.13333vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .traffic {
+  width: 100%;
+  position: relative;
+  margin-top: 2.13333vw;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  line-height: 3.46667vw;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .traffic .goodstext {
+  box-sizing: border-box;
+  width: 100%;
+  color: #666;
+  font-size: 3.2vw;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .labels {
+  height: 4vw;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: flex-start;
+  margin-top: 2.13333vw;
+  width: 100%;
+  overflow: hidden;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .labels .label {
+  height: 100%;
+  font-size: 2.93333vw;
+  margin-right: 1.33333vw;
+  line-height: 4vw;
+  color: #7f8c9c;
+  background-color: #f2f2f2;
+  display: inline-block;
+  box-sizing: border-box;
+  white-space: nowrap;
+  padding: 0 0.53333vw;
+  border-radius: 0.26667vw;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .goodsprice {
+  color: #ea3943;
+  font-size: 3.73333vw;
+  margin-top: 2.13333vw;
+}
+
+.house .goodlist .goodsitem .housecard .baseinfo .goodsdetails .goodsprice .goodsnum {
+  font-size: 4.53333vw;
+}
+
+.handlescrolltop {
+  width: 12vw;
+  height: 12vw;
+  font-size: 2.66667vw;
+  position: fixed;
+  right: 2.66667vw;
+  bottom: 4vw;
+  background-image: url("../../img/topback.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: 50%;
+}
+
+.handlescrolltop .topback {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 50%;
+  text-align: center;
+}
+
+.handnone {
+  display: none;
+}

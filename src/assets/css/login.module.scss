@@ -1,0 +1,115 @@
+@function vw($px) {
+  @return ($px / 750) * 200vw;
+}
+.body {
+  background-color: #bbb;
+  height: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+//box
+.box{
+  overflow-y: auto;
+
+  /* main */
+  .main{
+    width: 100%;
+    ::v-deep .van-nav-bar__text {
+    color: #000;
+    }
+    //deader
+    .header{
+      background: #ff8084;
+      height: vw(45);
+      span{
+        display: flex;
+        align-items: center;
+        position: relative;
+        float: left;
+        padding-left: vw(12);
+        margin: 0;
+        top: vw(-0);
+        font-size: 22px;
+        height: vw(45);
+        color:#fff;
+      }
+    }
+    //show
+    .show{
+      height: vw(160);
+      background:#ff8084;
+      position: relative;
+      .show_img{
+        width: vw(170);
+        height: vw(67);
+        position: absolute;
+        // top: 0;bottom: 0;
+        // left: 0;right: 0;
+        // margin: auto;
+        top: 25%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        img{
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    //con
+    .con{
+      padding: vw(5) 0 0 0 ;
+      h2{
+        color: #ef4c55;
+        text-align: center;
+        font-weight: 700;
+        height: vw(24);
+        font-size: vw(20);
+        padding: vw(16) 0;
+      }
+      .con_box{
+        // border: #ff8084 1px solid;
+        width: vw(287.5);
+        height: vw(24);
+        margin: 0 auto vw(14) auto;
+        padding: vw(10);
+        background: #f2f2f2;
+        border-radius:vw(20);
+        span{
+          color: rgb(195, 195, 195);
+          margin: 0 vw(5) 0 vw(20);
+        }
+        input{
+          font-size: vw(15);
+          background: #f2f2f2;
+        }
+      }
+      .con_checkbox{
+        height: vw(19);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: #ef4c55;
+        font-size: vw(14);
+        margin-bottom: vw(3);
+        .msg{
+          display: none;
+        }
+        span{
+          // display: inline-block;
+          margin-left: vw(2);
+        }
+
+      }
+      button{
+        width: vw(133.5);
+        height: vw(35);
+        margin-top: vw(8);
+        margin-left: vw(120);
+        border-radius:vw(20);
+        background: #ff8084;
+        color:#fff;
+      }
+
+    }
+  }
+}

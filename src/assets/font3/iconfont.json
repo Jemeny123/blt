@@ -1,0 +1,58 @@
+{
+  "id": "",
+  "name": "",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "594385",
+      "name": "左箭头",
+      "font_class": "zuojiantou",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "1315189",
+      "name": "左箭头",
+      "font_class": "zuojiantou-01",
+      "unicode": "e61c",
+      "unicode_decimal": 58908
+    },
+    {
+      "icon_id": "1833862",
+      "name": "左箭头",
+      "font_class": "zuojiantou1",
+      "unicode": "e735",
+      "unicode_decimal": 59189
+    },
+    {
+      "icon_id": "7524658",
+      "name": "左箭头",
+      "font_class": "zuojiantou2",
+      "unicode": "e771",
+      "unicode_decimal": 59249
+    },
+    {
+      "icon_id": "15847952",
+      "name": "左箭头",
+      "font_class": "zuojiantou3",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "15859091",
+      "name": "左箭头",
+      "font_class": "zuojiantou4",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    },
+    {
+      "icon_id": "16209396",
+      "name": "左箭头",
+      "font_class": "zuojiantou5",
+      "unicode": "e605",
+      "unicode_decimal": 58885
+    }
+  ]
+}
